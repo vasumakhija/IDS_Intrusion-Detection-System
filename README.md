@@ -54,7 +54,8 @@ Ensure you have the following installed:
 - Includes utility functions for comparing model performance and plotting metrics.
 
   ![Alt Text](ROC_comparative_RandomFores-KNN.png)
-  ![Alt Text](output.png)
+  `
+            ![Alt Text](output.png)
 
 ---
 
@@ -88,7 +89,8 @@ malicious_record = [
 predictions = loaded_model.predict(malicious_record)
 print("Prediction:", "Malicious" if predictions[0] == 1 else "Safe")
 
----
+
+```
 
 ## Future Improvements
 - Integrate deep learning models for enhanced accuracy.
