@@ -53,7 +53,8 @@ Ensure you have the following installed:
 - Evaluates models using metrics such as accuracy, F1-score, recall, precision, and ROC-AUC.
 - Includes utility functions for comparing model performance and plotting metrics.
 
-  
+  ![Alt Text](ROC_comparative_RandomFores-KNN.png)
+  ![Alt Text](output.png)
 
 ---
 
@@ -86,15 +87,6 @@ malicious_record = [
 ]
 predictions = loaded_model.predict(malicious_record)
 print("Prediction:", "Malicious" if predictions[0] == 1 else "Safe")
-```
-
----
-
-## Visualization
-The project includes functions to visualize model performance over epochs, such as accuracy and loss curves. Example:
-```python
-plot_history_metrics(history, 'accuracy', 'model_accuracy')
-```
 
 ---
 
